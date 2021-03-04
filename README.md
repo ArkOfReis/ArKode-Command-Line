@@ -1,15 +1,11 @@
 ```
-(-) Steps to use play Tetris:
+(-) Steps to use ArKode:
 
-(1) Move the Folder to the Desktop
+(1) Open the folder and either open the ArKode.exe or shell.py
 
-(2) Open 'Command Prompt' and type: 'cd C:\Users\{USER}\Desktop\Python-Tetris-Game-main'
-
-(3) Type: 'pip install -r requirements.txt'
-
-(4) Voila! There you have it! Enjoy :)
+(2) Voila! There you have it!
 ```
 
 ```
-Please leave a rating at https://github.com/ArkOfReis/Python-Tetris-Game/issues/new
-```"# ArKode-Command-Line" 
+Please leave a rating at https://github.com/ArkOfReis/ArKode-Command-Line/issues/new
+```
