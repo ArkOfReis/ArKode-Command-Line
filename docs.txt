@@ -1,0 +1,174 @@
+--------------------------------------------------------------------------------------------
+ArKode Commands:
+
+>>> NULL
+>>> FALSE
+>>> TRUE
+>>> MATH_PI
+>>> PRINT
+>>> PRINT_RET
+>>> INPUT
+>>> INPUT_INT
+>>> CLEAR
+>>> CLS
+>>> IS_NUM
+>>> IS_STR
+>>> IS_LIST
+>>> IS_FUN
+>>> APPEND
+>>> POP
+>>> EXTEND
+>>> LEN
+>>> RUN
+
+--------------------------------------------------------------------------------------------
+
+# Quick reminders
+
+## The zeroes at the end of most commands basically mean: When you run code it usually says after 'Finished with an exit code of 0'. Thats what the zero means ;)
+
+>>> WHEN USING COMMANDS REMEMBER TO USE CAPS
+
+>>> THE TEXT BELOW THE EXAMPLE WILL BE THE OUTPUT (EXAMPLE BELOW)
+
+>>> PRINT("Hello World!")
+Hello World!
+0
+
+>>> DO NOT DISTRUBUTE / REBRAND
+© ArKode | Made by ArkOfReis
+
+>>> ENJOY USING THIS LIGHTWEIGHT COMMAND LINE :)
+
+--------------------------------------------------------------------------------------------
+
+# Useful commands
+
+>>> RUN("FILE DIR") # If the text in the file can be ran in Python but the extension is random for example: textfile.helloworldfile123 ArKode will still run the code inside.
+
+>>> MATH_PI # Displays 16 digits of Pi
+
+>>> CLEAR() # Clears Screen
+
+>>> CLS() # Clears Screen
+
+--------------------------------------------------------------------------------------------
+
+# Variables (Integer Input)
+
+>>> VAR test = INPUT_INT() # Variable Input ## Type 123 here for example
+123
+123
+
+>>> VAR test1 = INPUT_INT() # Variable Input ## Type 1 here for example
+1
+1
+
+>>> VAR random = INPUT_INT() # Variable Input ## Type random text here for example then 123
+abcdefg
+'abcdefg' must be an integer. Try again!
+123
+123
+
+>>> test 
+# Declared above ^
+123
+0
+
+>>> test1 
+# Declared above ^
+1
+0
+
+>>> test + test1
+# Adds 123 and 1 because we declared that 'test' was 123 and 'test1' was 1
+124
+0
+
+--------------------------------------------------------------------------------------------
+
+# Print commands and IS_ commands
+
+>>> PRINT("Hello World!")
+Hello World!
+0
+
+>>> PRINT(["Hello", "World", "!"])
+Hello World !
+0
+
+
+>>> IS_NUM(123)
+1
+
+>>> IS_NUM([])
+0
+
+>>> IS_STR("abc")
+1
+
+>>> IS_LIST([])
+1
+
+>>> IS_FUN(PRINT)
+1
+
+--------------------------------------------------------------------------------------------
+
+# Variable (Lists) (They are in order)
+
+>>> VAR list = [1, 2, 3]
+[1, 2, 3]
+
+>>> list
+[1, 2, 3]
+
+>>> APPEND(list, 4)
+0
+
+>>> list
+[1, 2, 3, 4]
+
+>>> POP(list, 3)
+4
+
+>>> list
+[1, 2, 3]
+
+>>> EXTEND(list, [4, 5, 6])
+0
+
+>>> list
+[1, 2, 3, 4, 5, 6]
+
+--------------------------------------------------------------------------------------------
+
+# Math
+
+>>> 1 + 2
+3
+
+>>> 1 + 2; 3 + 4
+[3, 7]
+
+>>> VAR result = IF 5 == 5 THEN "Math Works" ELSE "No"
+"Math Works"
+
+>>> result
+"Math Works"
+
+>>> IF 5 == 5 THEN; PRINT("Math"); PRINT("Works") ELSE PRINT("Broken")
+Math
+Works
+0
+
+--------------------------------------------------------------------------------------------
+
+# Donate: https://paypal.me/ethanmal30/
+# Forum: https://arkode.createaforum.com/index.php
+
+# Created with Python 3.9.2
+
+# END OF FILE (Seriously :D)
+
+--------------------------------------------------------------------------------------------
